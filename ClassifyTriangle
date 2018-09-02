@@ -1,0 +1,24 @@
+def classify_triangle():
+
+    print ("Please enter the three lengths of the sides of a triangle")
+print ("Please enter the length of triangle side a")
+a = int(input("side a = "))
+
+print ("Please enter the length of triangle side b")
+b = int(input("side b = "))
+
+print ("Please enter the length of triangle side c")
+c = int(input("side c = "))
+
+if a == b == c:
+    print("equiateral")
+
+elif a == b or b == c or a == c:
+    print("isosceles")
+
+elif a^2 + b^2 == c^2 or b^2 + c^2 == a^2 or a^2 + c^2 == b^2:
+    print("right")
+
+else:
+    print("scalene")
+
